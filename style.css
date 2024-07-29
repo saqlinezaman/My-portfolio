@@ -66,13 +66,45 @@ nav ul a{
     font-weight: 600;
 }
 .nav_btn{
-   padding: 12px 24px;
+   padding: 14px 26px;
    border: 0px;
    background-color: #41B883;
    font-size: 14px;
    color: white;
    font-weight: 600;
+   border-radius: 5px;
 }
+/* hero section  */
+.hero-section{
+    display: flex;
+    align-items: center;
+    margin: 50px 50px;
+    justify-content: space-between;
+}
+.banner-image img{
+    
+    width: 100%;
+}
+.banner-h4{
+    font-size: 20px;
+    color: grey;
+}
+.multiple-color{
+    color: #41B883;
+}
+.banner-titel{
+    font-size: 32px;
+}
+.banner-p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: grey;
+    font-weight: 400;
+   
+}
+
+
+
 
 /* responsive */
 
@@ -95,7 +127,23 @@ nav ul a{
         font-weight: 500;
     }
     .nav_btn{
-        padding: 8px 16px;
+        padding: 12px 18px;
     }
-    
+    .hero-section{
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+    }
+    .banner-h4{
+        font-size: 20px;
+    }
+    .banner-titel{
+        font-size: 24px;
+    }
+    .banner-p{
+        font-size: 18px;
+        }
+        .banner{
+            margin-bottom: 50px;
+        }
 }
