@@ -78,8 +78,9 @@ nav ul a{
 .hero-section{
     display: flex;
     align-items: center;
-    margin: 50px 50px;
+    padding: 50px 50px;
     justify-content: space-between;
+    background-color: #e8f8ff;
 }
 .banner-image img{
     
@@ -133,6 +134,7 @@ nav ul a{
         flex-direction: column;
         margin: 10px;
         text-align: center;
+        
     }
     .banner-h4{
         font-size: 20px;
