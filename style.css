@@ -63,9 +63,13 @@ nav ul li {
 
 nav ul a{
     text-decoration: none;
-    color: #41B883;
+    color:#34495E;
     font-size: 18px;
     font-weight: 600;
+}
+
+nav ul a:hover{
+    color: #41B883;
 }
 .nav_btn{
    padding: 14px 26px;
@@ -75,6 +79,9 @@ nav ul a{
    color: white;
    font-weight: 600;
    border-radius: 5px;
+}
+.nav_btn:hover {
+    background-color: #34495E;
 }
 /* hero section  */
 .hero-section{
@@ -108,6 +115,13 @@ nav ul a{
     color: grey;
     
 }
+.social-icon img{
+    width: 45px;
+    height: 45px;
+   background-color: #41B883;
+   border-radius: 50%;
+   margin-right: 5px;
+}
 
 /* skills section */
 .skills-container{
@@ -125,6 +139,16 @@ nav ul a{
 .skills img{
     height: 250px;
     width: auto;
+}
+.about-section{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    padding-right: 100px;
+}
+.about-img img{
+    width: 650px;
+    height: 100%;
 }
 
 
@@ -150,7 +174,6 @@ nav ul a{
         padding: 5px;
     }
     nav ul a{
-        color: #41B883;
         font-size: 14px;
         font-weight: 500;
     }
@@ -185,5 +208,16 @@ nav ul a{
         
         .my-skill{
             text-align: center;
+        }
+        .about-section{
+            flex-direction: column-reverse;
+            text-align: center;
+            gap: 40px;
+            padding: 5px;
+            
+        }
+        .about-img img{
+            width:300px;
+            height: 100%;
         }
 }
