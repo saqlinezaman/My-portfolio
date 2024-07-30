@@ -105,13 +105,13 @@ nav ul a:hover{
     width: 100%;
 }
 .banner-h4{
-    font-size: 20px;
+    font-size: 24px;
 }
 .multiple-color{
     color: #41B883;
 }
 .banner-titel{
-    font-size: 32px;
+    font-size: 40px;
     color: #34495E;
 }
 .banner-p{
@@ -146,10 +146,9 @@ nav ul a:hover{
 .skill-h4{
     font-size: 20px;
     text-align: center;
-    text-decoration:underline ;
 }
 .skill-titel{
-    font-size: 32px;
+    font-size: 40px;
     color: #34495E;
     text-align: center;
 }
@@ -185,6 +184,32 @@ nav ul a:hover{
 .portfolio img {
     width: 600px;
     height: 350px;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-img img{
+    width: 350px;
+    height: auto;
+}
+
+form input{
+    width: 500px;
+    padding: 12px 5px 12px 0px;
+    border: none;
+    border-bottom: 1px solid #34495E;
+    margin: 10px;
+}
+.Massage{
+    padding: 50px 0px;
+    margin-bottom: 20px;
+}
+.copyright{
+    background-color: #34495E;
+    padding: 5px 0px;
+    align-items: center;
 }
 
 
@@ -288,5 +313,20 @@ nav ul a:hover{
         }
         .portfolio{
             padding-bottom: 20px;
+        }
+        .footer{
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-img img{
+            width:100%;
+            height: 100%;
+        }
+        form input{
+            width: 100%;
+            padding: 12px 5px 12px 0px;
+        }
+        form{
+            margin-bottom: 30px;
         }
 }
