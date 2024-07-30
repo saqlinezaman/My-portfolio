@@ -1,5 +1,6 @@
 body{
-    padding: 0px 50px;
+  padding: 0px;
+  margin: 0px;
     
     .poppins-regular {
         font-family: "Poppins", sans-serif;
@@ -26,12 +27,16 @@ body{
       }
       
 }
+main{
+    padding: 50px;
+}
 .header{
     display: flex;
     background-color: #e8f8ff;
-    border-radius: 10px;
     justify-content: space-around;
     align-items: center;
+    position:sticky;
+    width: 100%;
 }
 .logo{
     font-size: 24px;
@@ -44,8 +49,8 @@ body{
 
 nav{
     display: flex;
-    justify-content:center;
-    gap: 250px;
+   
+    gap: 350px;
     align-items: center;
     
     
@@ -101,13 +106,13 @@ nav ul a:hover{
 }
 .banner-h4{
     font-size: 20px;
-    color: grey;
 }
 .multiple-color{
     color: #41B883;
 }
 .banner-titel{
     font-size: 32px;
+    color: #34495E;
 }
 .banner-p{
     font-size: 20px;
@@ -122,14 +127,30 @@ nav ul a:hover{
    border-radius: 50%;
    margin-right: 5px;
 }
+.social-icon img:hover{
+    background-color: #ffffff;
+}
 
 /* skills section */
+.my-skill{
+    margin-top: 100px;
+}
 .skills-container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 100px 0px;
     
+}
+.skill-h4{
+    font-size: 20px;
+    text-align: center;
+    text-decoration:underline ;
+}
+.skill-titel{
+    font-size: 32px;
+    color: #34495E;
+    text-align: center;
 }
 .skills{
     text-align: center;
@@ -142,12 +163,12 @@ nav ul a:hover{
 }
 .about-section{
     display: flex;
-    gap: 150px;
+    gap: 200px;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 80px;
 }
 .about-img img{
-    width: 650px;
+    width: 600px;
     height: 100%;
 }
 
@@ -160,6 +181,9 @@ nav ul a:hover{
 
     body{
         padding: 0px 0px;
+    }
+    main{
+        padding: 5px;
     }
 
     header{
@@ -204,6 +228,13 @@ nav ul a:hover{
             flex-direction: column;
             text-align: center;
             margin:50px 0px 0px 0px;
+        }
+        .skill-h4{
+            font-size: 20px;
+            
+        }
+        .skill-titel{
+            font-size: 24px;
         }
         
         .my-skill{
